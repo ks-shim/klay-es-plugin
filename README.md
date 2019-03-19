@@ -9,7 +9,8 @@ klay(Korean Language AnalzYer) plugin for elasticsearch
 
 # Examples
 
--Default
+- Default
+  - NNG, NNP, VV, VA, SL, SH, SN, NA 만 
 ```json
 PUT test_index
 {
@@ -24,7 +25,7 @@ PUT test_index
   }
 }
 ```
--모든 형태소를 출력할 경우
+- 모든 형태소를 출력할 경우
 ```json
 PUT test_index
 {
