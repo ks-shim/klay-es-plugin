@@ -1,4 +1,4 @@
-# klay-es-plugin
+# 1. klay-es-plugin
 klay(Korean Language AnalzYer) plugin for elasticsearch 
 
 - 0.3 version : elasticsearch 6.5.0
@@ -7,9 +7,9 @@ klay(Korean Language AnalzYer) plugin for elasticsearch
   - https://github.com/ks-shim/klay 에서 소스를 checkout하여 elasticsearch 버전을 변경한 다음 plugin을 재빌딩한다.
   - dwayne.shim@gmail.com으로 해당 버전의 klay-es-plugin을 요청한다.
 
-# Examples
+# 2. Examples
 
-- 기본 사용
+## 2-1. 기본 사용
   - NNG, NNP, VV, VA, SL, SH, SN, NA 만 
 ```json
 PUT test_index
@@ -26,7 +26,7 @@ PUT test_index
 }
 ```
 
-- 모든 형태소를 출력할 경우
+## 2-2. 모든 형태소를 출력할 경우
 ```json
 PUT test_index
 {
@@ -43,7 +43,7 @@ PUT test_index
 }
 ```
 
-- 특정 형태소만 출력할 경우
+## 2-3. 특정 형태소만 출력할 경우
 ```json
 PUT test_index
 {
