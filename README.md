@@ -10,7 +10,7 @@ klay(Korean Language AnalzYer) plugin for elasticsearch
 # 2. Examples
 
 ## 2-1. 기본 사용
-  - NNG, NNP, VV, VA, SL, SH, SN, NA 만 
+  - NNG, NNP, VV, VA, SL, SH, SN, NA 만 출럭합니다
 ```json
 PUT test_index
 {
