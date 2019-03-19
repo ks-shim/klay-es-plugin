@@ -9,7 +9,7 @@ klay(Korean Language AnalzYer) plugin for elasticsearch
 
 # Examples
 
-- Default
+- 기본 사용
   - NNG, NNP, VV, VA, SL, SH, SN, NA 만 
 ```json
 PUT test_index
@@ -25,6 +25,7 @@ PUT test_index
   }
 }
 ```
+
 - 모든 형태소를 출력할 경우
 ```json
 PUT test_index
@@ -35,6 +36,24 @@ PUT test_index
         "klay_analyzer":{
           "type": "klay_analyzer",
           "usePosFilter":"false"
+        }
+      }
+    }
+  }
+}
+```
+
+- 특정 형태소만 출력할 경우
+```json
+PUT test_index
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "klay_analyzer":{
+          "type": "klay_analyzer",
+          "usePosFilter":"false",
+          "allowedPoses" : ["NNG","VV"]
         }
       }
     }
