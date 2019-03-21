@@ -8,7 +8,7 @@ klay(Korean Language AnalzYer) plugin for elasticsearch
   - dwayne.shim@gmail.com으로 해당 버전의 klay-es-plugin을 요청한다.
 
 # 2. Examples
-  * 품사 정보는 http://kkma.snu.ac.kr/statistic?submenu=postag 를 참조해주세요^^
+  * 품사 정보는 http://kkma.snu.ac.kr/statistic?submenu=postag 를 참조해 주십시오.
 ## 2-1. 기본 사용
   - NNG, NNP, VV, VA, SL, SH, SN, NA 만 출럭합니다
 ```json
