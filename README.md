@@ -52,7 +52,7 @@ PUT test_index
       "analyzer": {
         "klay_analyzer":{
           "type": "klay_analyzer",
-          "usePosFilter":"false",
+          "usePosFilter":"true",
           "allowedPoses" : ["NNG","VV"]
         }
       }
